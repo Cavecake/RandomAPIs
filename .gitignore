@@ -152,3 +152,4 @@ cython_debug/
 #.idea/
 apiKey.txt
 client_secret.json
+pexel.txt
