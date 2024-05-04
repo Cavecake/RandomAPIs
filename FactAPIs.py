@@ -17,3 +17,6 @@ def catFact():
     fact = loadAPIResponse("https://catfact.ninja/fact")["fact"]
     re.sub(r'(.+)', fact, '')
     return fact
+
+def getFact():
+    return catFact()
